@@ -1,10 +1,11 @@
 
 import './App.css';
+import Hello from './components/HOME/Main';
 
 function App() {
   return (
     <div className="App">
-      <h1>My first project</h1>
+      <Hello/>
     </div>
   );
 }
