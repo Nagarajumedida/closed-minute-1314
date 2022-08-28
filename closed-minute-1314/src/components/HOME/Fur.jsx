@@ -1,8 +1,10 @@
 import { Box } from "@chakra-ui/react"
+import Allpages from "./allpages"
 import "./Fur.css"
 export default function Furniture(){
     return(
         <Box>
+            <Allpages/>
              <div className="nav1">
                 <div className="nav2">
                 <select name="" id="">
@@ -51,7 +53,7 @@ export default function Furniture(){
 
             {/* sidebar */}
             <div className="sidebar">
-                    <h1>Browse By</h1>
+            <h1>Browse By</h1>
                     <hr />
                     <h2>Home & Furniture</h2>
                     <p>New</p>
@@ -67,6 +69,7 @@ export default function Furniture(){
                     <p>Stationary</p>
                     <p>Sale Home & Furniture</p>
                     <p>Explore Terrain</p>
+                    
             </div>
                 <div className="sidebar1">
                     <div className="okati">

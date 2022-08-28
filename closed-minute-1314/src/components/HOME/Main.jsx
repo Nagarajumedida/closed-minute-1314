@@ -1,8 +1,10 @@
 import { Box } from "@chakra-ui/react"
+import Allpages from "./allpages"
 import "./Main.css"
 export default function Hello(){
     return(
         <Box className="box">
+            <Allpages/>
         {/* 1st header */}
             <div className="header">
                   <p>Our Studeis Show:You NEED these.</p>
